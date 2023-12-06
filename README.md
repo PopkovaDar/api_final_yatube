@@ -23,8 +23,11 @@ python3 manage.py runserver
 
 ## Стек технологий
 Django==3.2.16
-Python==3.9
+
+Python==3.9.10
+
 DRF
+
 JWT + Djoser
 
 

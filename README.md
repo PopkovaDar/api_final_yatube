@@ -4,22 +4,21 @@
 
 ## Как запустить проект:
 
-Клонировать репозиторий и перейти в него в командной строке:
-git clone https://github.com/yandex-praktikum/kittygram.git
+* Клонировать репозиторий и перейти в него в командной строке:
 cd api_final_yatube
 
-Cоздать и активировать виртуальное окружение:
+* Cоздать и активировать виртуальное окружение:
 python3 -m venv env
 source env/bin/activate
 
-Установить зависимости из файла requirements.txt:
+* Установить зависимости из файла requirements.txt:
 python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 
-Выполнить миграции:
+* Выполнить миграции:
 python3 manage.py migrate
 
-Запустить проект:
+* Запустить проект:
 python3 manage.py runserver
 
 ## Стек технологий
@@ -30,7 +29,7 @@ JWT + Djoser
 
 
 ## Проверка работы
-В директории postman_collection сохранена коллекция запросов для отладки и проверки работы текущей версии API Yatube. Для использования коллекции ее необходимо импортировать в Postman. :relieved:
+В директории postman_collection сохранена коллекция запросов для отладки и проверки работы текущей версии API Yatube. Для использования коллекции ее необходимо импортировать в Postman.
 
 ### Примеры запросов
 ___
